@@ -9,7 +9,7 @@ import org.openqa.selenium.support.PageFactory;
 
 import java.util.List;
 
-public class DashboardPage {
+public class LandingPage {
     @FindBy(name = "q")
     WebElement txtSearch;
     @FindBy(tagName = "h1")
@@ -27,7 +27,7 @@ public class DashboardPage {
     @FindBy(tagName = "f2-mktg")
     WebElement verifyAboutPage;
 
-    public DashboardPage(WebDriver driver) {
+    public LandingPage(WebDriver driver) {
         PageFactory.initElements(driver, this);
     }
     public void doSearch(){
