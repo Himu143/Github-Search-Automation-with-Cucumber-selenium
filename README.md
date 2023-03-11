@@ -23,7 +23,7 @@
 - Clone this project
 - hit the following command: mvn clean test / mvn clean install
 
-## Login Functionality:
+## Search Functionality:
 ![assignment testrunner ss](https://user-images.githubusercontent.com/78273243/224470879-671e5e26-7878-4046-8e5b-4160655de6a0.png)
 
 ## Report:
