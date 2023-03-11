@@ -8,9 +8,11 @@
 - Intellij IDEA
 
 ## Scenario:
-- Visit this site : https://www.saucedemo.com/
-- Login with Invalid Credentials
-- Login with Valid Credentials
+1. As a guest (not logged in), when searching GitHub for the term "create-react-app" from the landing page search input, you will see: A count of matching results
+
+2. You will find and verify "facebook/create-react-app " project as the first result
+
+3. As a guest, when clicking the "About" button in the landing page footer, you will be taken to the GitHub "About" page. verify, you are on about page
 
 ## Prerequisite:
 - Java 8 or latest version
